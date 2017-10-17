@@ -5,7 +5,7 @@ def line (deli_line)
     puts "The line is currently empty."
   else
     line_list = (deli_line.each_with_index.map {|x, i| "#{i + 1}. #{x}"}).join(" ")
-    "The line is currently: #{line_list}"
+    puts "The line is currently: #{line_list}"
   end
 end
 
