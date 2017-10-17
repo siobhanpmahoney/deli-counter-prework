@@ -13,3 +13,11 @@ def take_a_number (current_line, new_person)
     current_line.push(new_person)
     puts "Welcome, #{new_person}. You are number #{current_line.length} in line."
 end
+
+def now_serving(current_line)
+  if current_line.length > 0
+    puts "Now serving #{current_line.pop}"
+  else
+    puts "There is nobody waiting to be served!"
+  end
+end
