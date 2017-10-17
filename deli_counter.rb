@@ -15,6 +15,6 @@ def take_a_number (current_line, new_person)
     puts "Welcome #{new_person}. You are number 1 in line."
   else
     current_line.push(new_person)
-    return "Welcome #{new_person}. You are number #{current_line.length} in line."
+    puts "Welcome #{new_person}. You are number #{current_line.length} in line."
   end
 end
